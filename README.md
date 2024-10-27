@@ -72,6 +72,10 @@ To deploy this demonstration:
 5. Run `terraform plan` to see the execution plan.
 6. Run `terraform apply` to create the resources.
 
+## Github Actions 
+
+For more details, this project uses the same approach as this repo : https://github.com/Worxfr/terraformgithubactions
+
 ## Conclusion
 
 This project successfully demonstrates that using the same CIDR range (specifically, the secondary CIDR block) for Transit Gateway attachments across different VPCs does not cause conflicts or issues. It showcases a practical approach to managing complex network architectures with overlapping IP spaces in AWS.
