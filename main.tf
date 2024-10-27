@@ -2,6 +2,10 @@ provider "aws" {
   //region = local.region
 }
 
+terraform {
+  backend "local" {}
+}
+
 data "aws_availability_zones" "available" {}
 
 locals {
