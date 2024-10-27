@@ -28,6 +28,8 @@ The maintainers of this project are not responsible for any issues that may aris
 
 This project demonstrates that it's possible to use the same CIDR range for Transit Gateway (TGW) attachments in different VPCs without causing issues. The setup showcases a network architecture using AWS Transit Gateway to connect multiple VPCs with overlapping IP address spaces.
 
+![TerrAWAN Architecture Overview](img/terraform-examples-tgwarch.png)
+
 ## Key Components
 
 - 2 VPCs (VPC1 and VPC2) with primary and secondary CIDR blocks
